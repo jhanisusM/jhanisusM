@@ -2,9 +2,23 @@ body,html {
     height: 100%;
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
-    color: #282E34;
+    color: rgb(40, 46, 52);
 }
 
+
+/* navbar */
+/* ====================================================================== */
+li a:hover { 
+    background-color: rgba(40,46,52,0.70); 
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: rgb(255, 255, 255);
+}
+
+
+   
 /* parallax Effect  */
 /* ====================================================================== */
 .bgimg-1,.bgimg-2,.bgimg-3,.bgimg-4 {
@@ -39,11 +53,11 @@ body,html {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #282E34;
+    color: rgb(40, 46, 52);
 }
 
 .caption span.border {
-    background-color: #282E34;
+    background-color: rgb(40, 46, 52);
     color: #fff;
     padding: 18px;
     font-size: 14px;
@@ -64,25 +78,30 @@ h3 {
     background-attachment: scroll;
             }
 } */
-
-#contact {
-    color:#ddd;
-    background-color:#282E34;
-    text-align:center;padding:50px 80px;
-    text-align: justify;
-}
-
-.port{
-    color:#ddd;background-color:#282E34;
-    text-align:center;padding:50px 80px;
-    text-align: justify;
-}
-
 .about{
     color: #777;background-color:white;
     text-align:center;padding:50px 80px;
     text-align: justify;
 }
+.port{
+    color:#ddd;
+    background-color:rgb(40, 46, 52);
+    text-align:center;padding:50px 80px;
+    text-align: justify;
+}
+.contact {
+    color:#ddd;
+    background-color:rgb(40, 46, 52);
+}
+.footer {
+    color:#ddd;
+    background-color:rgb(40, 46, 52);
+    text-align: justify;
+    text-align: center;
+}
+
+
+
 
 
 #spanStyle{
@@ -90,3 +109,41 @@ h3 {
     font-size:25px;
     color: #f7f7f7;
 }
+
+/* ====================================================================== */
+#map {
+    width: 300px;
+    height: 400px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    margin: 10px
+}
+/* hr in contact me
+====================================================================== */
+#hrcontact{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+/* Contact style */
+/* ====================================================================== */
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #f7f7f7;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+
+

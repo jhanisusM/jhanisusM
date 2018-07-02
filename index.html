@@ -8,10 +8,10 @@
     <!-- Bootstrap CSS & JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </head>
 
 <body>
@@ -39,61 +39,146 @@
         </nav>
     </div>
 
-    <div class="bgimg-1">
-        <div class="caption"> 
-            <span  class="border">Jhanisus Melendez</span>
+    <div class="bgimg-1" id="top">
+        <div class="caption" >
+            <span class="border">JHANISUS MELENDEZ</span>
             <br>
             <br>
-                <a href="https://github.com/jhanisusM" class="btn btn-dark"><span class="fa fa-github"></span></a>
-                <a href="https://www.linkedin.com/in/jhanisus/" class="btn btn-dark"><span class="fa fa-linkedin-square"></span></a>
-                <a href="https://stackoverflow.com/users/8730147/jhanisusm" class="btn btn-dark"><span class="fa fa-stack-overflow"></span></a>
+            <a href="https://github.com/jhanisusM" class="btn btn-dark">
+                <span class="fa fa-github"></span>
+            </a>
+            <a href="https://www.linkedin.com/in/jhanisus/" class="btn btn-dark">
+                <span class="fa fa-linkedin-square"></span>
+            </a>
+            <a href="https://stackoverflow.com/users/8730147/jhanisusm" class="btn btn-dark">
+                <span class="fa fa-stack-overflow"></span>
+            </a>
         </div>
     </div>
     <!-- About Me -->
-<!-- ====================================================================== -->
-    <div id="about" class="about">
+    <!-- ====================================================================== -->
+    <div id="about">
+        <br>
         <h3 style="text-align:center;">About me</h3>
         <hr>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-            ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-            ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
-            ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?.</p>
+        <div align ="center">
+            <img src="assets/images/pic1.jpg">
+        </div>
+        <br>
+            <p class="about">
+                Full stack web developer with 2+ years as an image reading analyst offering more than three years of experience in analytical
+                skills and attention to detail derived from good manufacturing practices, facilitating and liaising different
+                projects, and adaptability to shifting priorities. I have a technical background in the hard sciences, with experience
+                in dynamic web applications using JavaScript, HTML/CSS, Node JS and C++. Driven to exceed customer expectations
+                by delivering valuable well-designed products that innovate technical solutions.
+            </p>
+        <h3 style="text-align:center;">Technologies</h3>
+        <hr>
+        <div class="container">
+            <div class="row" style="position: relative;">
+                <div class="col-4">
+                    <ul style="list-style-type:none">
+                        <li ><span class="fa fa-floppy-o"></span><span> MEAN FullStack </span></li>
+                        <li ><span class="fa fa-floppy-o"></span><span> JavaScript</span></li>
+                        <li ><span class="fa fa-floppy-o"></span><span> MongoDB</span></li>
+                        <li ><span class="fa fa-floppy-o"></span><span> Express.js</span></li>
+                        <li ><span class="fa fa-floppy-o"></span><span> React</span></li>
+                        <li ><span class="fa fa-floppy-o"></span><span> Node.js</span></li>
+                    </ul>
+                </div>
+                <div class="col-4"> 
+                    <ul style="list-style-type:none">
+                        <li ><span class="fa fa-floppy-o"></span><span> HTML</span></li>
+                        <li ><span class="fa fa-floppy-o"></span><span> CSS</span></li>
+                        <li ><span class="fa fa-floppy-o"></span><span> jQuery</span></li>
+                        <li ><span class="fa fa-floppy-o"></span><span> APIs and AJAX</span></li>
+                        <li ><span class="fa fa-floppy-o"></span><span> GIT/Github/Heroku</span></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                        <ul style="list-style-type:none">
+                            <li ><span class="fa fa-floppy-o"></span><span> Firebase </span></li>
+                            <li ><span class="fa fa-floppy-o"></span><span> MySQL</span></li>
+                            <li ><span class="fa fa-floppy-o"></span><span> Sequelize</span></li>
+                            <li ><span class="fa fa-floppy-o"></span><span> NPM packages</span></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+       
+  
     </div>
     <!-- Portfolio -->
-<!-- ====================================================================== -->
-    <div class="bgimg-2">
-        <div class="caption" id="portfolio">
-            <span  id="spanStyle" class=" border ">Portfolio</span>
+    <!-- ====================================================================== -->
+    <div id="portfolio" class="bgimg-2">
+        <div class="caption">
+            <span id="spanStyle" class=" border ">Portfolio</span>
         </div>
     </div>
 
     <div style="position:relative;">
-        <div  class="port">
+        <div class="port">
             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
                 eos qui ratione voluptatem sequi nesciunt.</p>
         </div>
     </div>
     <!-- Contact Me -->
-<!-- ====================================================================== -->
-    <div class="bgimg-3">
+    <!-- ====================================================================== -->
+    <div class="bgimg-3" >
         <div class="caption">
-            <span   id="spanStyle" class="border">Contact me</span>
+            <span id="spanStyle" class="border">Contact Me</span>
         </div>
     </div>
+    <div style="position:relative;" id="contact">
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" style="text-align: center">
+                        <h3>Find me Here </h3>
+                        <hr id="hrcontact">
+                        <p>
+                            <em>I'd love to hear from you </em>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4" id="map">
+                        <!-- Google Maps goes here -->
+                    </div>
+                    <div class="col-6">
+                        <br>
+                        <i class="fa fa-map-marker" style="width:30px"></i> City of Monrovia, CA, United States
+                        <br>
+                        <i class="fa fa-phone" style="width:30px"></i> Phone: 213.948.6356
+                        <br>
+                        <i class="fa fa-envelope " style="width:30px"> </i> Email: jhanisus@gmail.com
+                        <br>
+                        <p>leave me a message:</p>
+                        <div class="">
+                            <div class="">
+                                <input class="" type="text" placeholder="Name">
+                            </div>
+                            <div class="">
+                                <input class="" type="text" placeholder="Email">
+                            </div>
+                        </div>
+                        <input class="" type="text" placeholder="Comment" style="height: 100px;">
+                        <a href="mailto:jhanisus@gmail.com">
+                            <button type="button" class="btn btn-light">SEND</button>
+                        </a>
+                    </div>
+                </div>
 
-    <div style="position:relative;">
-        <div id="contact">
-            <h3 class="w3-center">WHERE I WORK</h3>
-            <p class="w3-center">
-                <em>I'd love your feedback!</em>
-            </p>
+            </div>
         </div>
     </div>
-
+    <footer class="footer">
+        <br>
+            <a href="#top" class="btn btn-outline-light">
+                <span class="fa fa-sort-asc"></span></a>
+    </footer>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJYfO25-ti-9JTfBZRIQ9gHkJJVuKMX44&libraries=places&callback=initMap">
+    </script>
 </body>
 
 </html>
