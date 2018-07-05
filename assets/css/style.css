@@ -31,7 +31,7 @@ li a:hover {
 }
 
 .bgimg-1 {
-    background-image: url("../images/la3.jpg");
+    background-image: url("../images/la9.jpg");
     min-height: 100%;
 }
 
@@ -71,15 +71,10 @@ h3 {
     color: rgb(17, 17, 17);
    }
    
-/* Turn off parallax scrolling for tablets and phones */
 
-/* @media only screen and (max-device-width: 1024px) {
-.bgimg-1,.bgimg-2,.bgimg-3 {
-    background-attachment: scroll;
-            }
-} */
+
 .about{
-    color: rgb(119, 119, 119);background-color:rgb(255, 255, 255);
+    color: black;background-color:rgb(255, 255, 255);
     text-align:center;padding:50px 80px;
     text-align: justify;
 }
@@ -135,7 +130,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 3px solid #f7f7f7;
+    border: 3px solid rgb(247, 247, 247);
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
